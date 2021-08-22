@@ -27,6 +27,16 @@
 
     {{View::make("footer")}}
 </body>
-
+<style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+   
+      height: 400px !important;
+    }
+    .slidet-text
+    {
+        color: blue;
+    }
+    </style>
 
 </html>
